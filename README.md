@@ -56,6 +56,10 @@ alt="JavaScript">
 
 ---
 
+<div align="center">
+   <img src="https://www.joseatolentino.com/static/media/medcenter.8f2c48fe79f688a4145b.jpg" alt="medgpt">
+</div>
+
 
 ##  Quick Links
 

@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply text-secondary font-primary text-[17px] leading-8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-primary leading-[120%];
+}
+
+.h1 {
+  @apply text-[36px] xl:text-[64px] font-semibold;
+}
+
+.h2 {
+  @apply text-[30px] xl:text-[44px] font-semibold capitalize tracking-[0.44px];
+}
+
+.h3 {
+  @apply text-[20px] xl:text-[26px] font-semibold;
+}
+
+.h4 {
+  @apply text-[20px] xl:text-[26px] font-semibold capitalize;
+}
+
+.btn {
+  @apply rounded-full uppercase tracking-[1.02px] flex items-center justify-center transition-all;
+}
+
+.btn-sm {
+  @apply h-14 px-10;
+}
+
+.btn-lg {
+  @apply h-16 px-[50px];
+}
+
+.btn-accent {
+  @apply bg-accent text-white hover:bg-accent-secondary;
+}
+
+.btn-white {
+  @apply bg-white text-secondary hover:bg-white/90;
+}
+
+.btn-outline {
+  @apply bg-transparent border-2 border-accent text-secondary hover:bg-accent hover:border-transparent hover:text-white;
+}
+
+.input,
+.select {
+  @apply w-full rounded-[10px] h-[66px] outline-none border border-[#dbdfdf] text-secondary font-light placeholder:font-light placeholder:text-secondary;
+}
+
+.input {
+  @apply px-4;
+}
+
+.select {
+  @apply py-4 lg:py-[15px];
+}
+
+.section {
+  @apply py-20 xl:py-[150px];
+}
+
+.swiper-horizental>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullet {
+  @apply bg-accent;
+}
+
+.faq_item.open .faq_answer {
+  @apply h-full;
+}
